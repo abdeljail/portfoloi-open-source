@@ -27,9 +27,9 @@ There are tons of benefits to building your own portfolio website, including:
 
 **
 ```
-So, what does a portfolio look like and what information does it include? Let’s jump into the 27 things you 
-should consider adding to your tech portfolio website 
-:earth_americas:  (with real-life portfolio website examples for inspiration).
+So, what does a portfolio look like and what information does it include? Let’s jump into the ```27``` 
+things you should consider adding to your tech portfolio website 
+:earth_africa: (with real-life portfolio website examples for inspiration).
 ```
 **
 
