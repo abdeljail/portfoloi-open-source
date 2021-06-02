@@ -31,7 +31,7 @@ things you should consider adding to your tech portfolio website
 
 *If you’re more in the design space, show off your skills by creating your own awesome logo for your online portfolio website.*
 
-*\**Then, create a strong tagline underneath**\ . This can quickly tell visitors who you are and what you can offer them. Making your message clear off the bat is important.*
+**Then, create a strong tagline underneath**. *This can quickly tell visitors who you are and what you can offer them. Making your message clear off the bat is important.*
 
 
 
