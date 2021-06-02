@@ -85,9 +85,9 @@ things you should consider adding to your tech portfolio website
 
 ### A few basic social media ground rules:
 
-* - Don’t complain about your current job/boss/coworkers :rotating_light: .
-* - Avoid posting pictures getting #whitegirlwasted at the club on a Tuesday :camera_flash: .
-* - Stay away from insults and #drama 🤬 .
+* Don’t complain about your current job/boss/coworkers :rotating_light: .
+* Avoid posting pictures getting #whitegirlwasted at the club on a Tuesday :camera_flash: .
+* Stay away from insults and #drama 🤬 .
 
 `These rules apply even if you choose not to include your social media accounts on your portfolio or resume. Always be prepared for clients/employers to look you up on Google. (I can almost 90% promise that they will.)`
 
