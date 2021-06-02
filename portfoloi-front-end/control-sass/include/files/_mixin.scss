@@ -1,0 +1,159 @@
+// prefix
+    // Start prefix
+@mixin prefix($b,$c){
+    -webkit-#{$b}    : $c;
+    -moz-#{$b}       : $c;
+    -o-#{$b}         : $c;
+    -ms-#{$b}        : $c;
+    #{$b}            :$c
+}
+   // End prefix
+// list background
+    // Start loop list background
+$back:(attachment:fixed,repeat:no-repeat,size:cover);
+@mixin background{
+    @each $b, $c in $back{
+        %background-#{$b}{
+            $background: background-#{$b};
+            @include prefix($background,$c);
+        }
+    }
+}
+    // End loop list background
+@include background();
+// box-sizing
+%box-sizing{
+    @include prefix(box-sizing,border-box);
+    // flex-basis: ;
+}
+// children
+
+   // Start flex-order
+@mixin flex-order($v){
+    -webkit-box-ordinal-group:$v;
+    -ms-flex-order:$v;
+    order: $v;
+}
+   // End flex-order
+    // Start flex-grow
+@mixin flex-grow($v){
+    -webkit-box-flex:$v;
+    -ms-flex-positive:$v;
+    flex-grow:$v;
+}
+   // End flex-grow
+    // Start flex-shrink
+@mixin flex-shrink($v){
+    -ms-flex-negative:$v;
+      flex-shrink:$v;
+}
+   // End flex-shrink
+    // Start flex-basis
+@mixin flex-basis($v){
+    -ms-flex-preferred-size:$v;
+    flex-basis:$v;
+}
+   // End flex-basis
+// z-index
+    // Satart s-index
+@mixin z-index($v) {
+    z-index: $v;
+}
+    // End s-index
+// width
+    // Satart width
+@mixin width($v) {
+    width: $v+px;
+}
+@mixin min-width($v) {
+    min-width: $v+px;
+}
+@mixin max-width($v) {
+    max-width: $v+px;
+}
+    // End width
+// height
+    // Satart height
+@mixin height($v) {
+    height: $v+px;
+}
+@mixin min-height($v) {
+    min-height: $v+px;
+}
+@mixin max-height($v) {
+    max-height: $v+px;
+}
+    // End width
+// top and right and bottom and left
+@mixin top($value) {
+    top:$value;
+}
+@mixin right($value) {
+    right:$value;
+}
+@mixin bottom($value) {
+    bottom:$value;
+}
+@mixin left($value) {
+    left:$value;
+}
+// 
+// media query
+
+@mixin md-350 {
+    @media (max-width:350px){
+        @content;
+    }
+}
+
+
+    // Start Extra small
+@mixin md-575 {
+    @media (max-width:576px){
+        @content;
+    }
+}
+    // Start Extra small
+    // Start  small
+@mixin md-576 {
+    @media (min-width:576px)  {
+        @content;
+    }
+}
+@mixin md-576-767 {
+    @media (min-width:576px) and (max-width:767px) {
+        @content;
+    }
+}
+    // Start  small
+    // Start  Medium
+@mixin md-768 {
+    @media (min-width:768px) {
+        @content;
+    }
+}
+@mixin md-768-991 {
+    @media (min-width:768px) and (max-width:991px) {
+        @content;
+    }
+}
+    // Start  Medium
+    // Start  Large
+@mixin md-992 {
+    @media (min-width:992px) {
+        @content;
+    }
+}
+@mixin md-992-1199 {
+    @media (min-width:992px) and (max-width:1199px) {
+        @content;
+    }
+}
+    // Start  Large
+    // Start  XX-Large
+@mixin md-1400 {
+    @media (min-width:1400px) {
+        @content;
+    }
+}
+    // Start  XX-Large

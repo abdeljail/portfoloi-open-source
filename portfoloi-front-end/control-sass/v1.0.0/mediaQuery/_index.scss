@@ -1,0 +1,22 @@
+div{
+    @include md-575{
+        
+    }
+}
+div{
+    @include md-576-767{
+       
+    }
+}
+div{
+    @include md-768-991{
+    }
+}
+div{
+    @include md-992-1199{
+    }
+}
+div{
+    @include md-1400{
+    }
+}

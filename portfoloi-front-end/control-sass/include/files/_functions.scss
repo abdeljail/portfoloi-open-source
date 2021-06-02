@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $back:(attachment:fixed,repeat:no-repeat,size:cover);
+// @mixin background{
+//     @each $b, $c in $back{
+    
+//         .background-#{$b}{
+    
+//             $background: background-#{$b};
+    
+//             @include background-A-S-R($background,$c)
+//         }
+//     }
+// }
+
+// @include background();

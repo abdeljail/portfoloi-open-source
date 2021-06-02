@@ -1,0 +1,18 @@
+footer {
+    @include md-575 {}
+}
+footer {
+    @include md-576-767 {}
+}
+footer {
+    @include md-768-991 {
+    }
+}
+footer {
+    @include md-992-1199 {
+    }
+}
+footer {
+    @include md-1400 {
+    }
+}

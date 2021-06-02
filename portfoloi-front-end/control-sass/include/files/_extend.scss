@@ -1,0 +1,425 @@
+// variables colors and background-color
+$colors:("black": $black, 
+        "green": $green, 
+        "dark_green":$dark_green,
+        "white": $white, 
+        "white_F9": $white_F9, 
+        "dark_white": $dark_white, 
+        "gray-500":$gray-500,
+        "yellow": $yellow, 
+        "blue_sky": $blue_sky, 
+        "danger": $danger, 
+        "success": $success, 
+        "info":$info,
+        "para":$para,
+        "danger_0":$danger_0
+        );
+// color 
+   // Start loop list color
+@each $name , $color in $colors {
+    %color-#{$name}{
+        color: $color;
+    }
+}
+   // End loop list color
+// color 
+   // Start loop list background-color
+@each $name , $color in $colors {
+    %background-color-#{$name}{
+        background-color: $color;
+    }
+}
+   // End loop list background-color// padding 
+    // Start loop list padding
+$size_padding: 0,2,4,5,6,8,10,12,14,15,16,20;
+@each $i in $size_padding {
+    @each $j in $size_padding {
+        %padding-#{$i}-#{$j}{
+            padding: #{$i}px #{$j}px;
+        }
+    }
+}
+@each $sp in $size_padding {
+    %padding-#{$sp}{
+        padding: #{$sp}px;
+    }
+}
+@each $sp in $size_padding {
+    %padding-0-#{$sp}{
+        padding: 0 #{$sp}px;
+    }
+    %padding-#{$sp}-0{
+        padding: #{$sp}px 0;
+    }
+}
+@each $sp in $size_padding {
+    %padding-top-#{$sp}{
+        padding-top: #{$sp}px;
+    }
+    %padding-right-#{$sp}{
+        padding-right: #{$sp}px;
+    }
+    %padding-bottom-#{$sp}{
+        padding-bottom: #{$sp}px;
+    }
+    %padding-left-#{$sp}{
+        padding-left: #{$sp}px;
+    }
+}
+    // End loop list padding
+
+// margin
+   // Start loop list margin 
+$size_padding: 0,2,4,5,6,8,10,12,14,15,16,20;
+@each $sp in $size_padding {
+    %margin-#{$sp}{
+        margin: #{$sp}px;
+    }
+}
+@each $sp in $size_padding {
+    %margin-0-#{$sp}{
+        margin: 0 #{$sp}px;
+    }
+    %margin-#{$sp}-0{
+        margin: #{$sp}px 0;
+    }
+}
+@each $sp in $size_padding {
+    %margin-top-#{$sp}{
+        margin-top: #{$sp}px;
+    }
+    %margin-right-#{$sp}{
+        margin-right: #{$sp}px;
+    }
+    %margin-bottom-#{$sp}{
+        margin-bottom: #{$sp}px;
+    }
+    %margin-left-#{$sp}{
+        margin-left: #{$sp}px;
+    }
+}
+   // End loop list margin
+
+//font-weight
+  // Start loop list font-weihgt
+$font-weight:100,200,300,400,500,600,700,800,900,blod;
+@each $tw in $font-weight {
+    %font-weight-#{$tw}{
+       font-weight: $tw;
+    }
+}
+  // End loop list font-weoght
+// font-zise
+   // Start loop list font-size
+$font-size:8,10,12,14,15,16,17,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48;
+@each $fs in $font-size {
+    %font-size-#{$fs}{
+        font-size: #{$fs}px;
+    }
+}
+   // End loop list font-size
+// text-align
+    // Start loop list text-align
+$text-align: left,right,center,justify;
+@each $ta in $text-align {
+    %#{$ta}{
+        text-align:$ta;
+    }
+}
+    // End loop list text-align
+// text-transform
+   // Start loop list text-transform
+$text-transform:capitalize,uppercase,lowercase;
+@each $tt in $text-transform {
+    %#{$tt}{
+        text-transform: $tt;
+    }
+}
+    // End loop list text-transfotm
+
+// display
+   // Start loop list display
+@mixin display_prefix($b,$f) {
+    %#{$b}-#{$f}{
+        display: -webkit-#{$b};
+        display: -ms-#{$f};
+    }   
+}
+$display: none,block,inline-block,flex,inline-flex;
+@each $d in $display {
+    @if $d == flex {
+        @include display_prefix(box,flexbox);
+    }
+    @if $d == inline-flex {
+        @include display_prefix(inline-box,inline-flexbox);
+    }
+    %display-#{$d}{
+        display:$d;
+    }
+}
+   // End loop list display
+// border 
+    // Start loop list border
+$border-width:1,2,3,4,5,6,7,8,9,10;
+$border-style:solid,dashed;
+$position : top,right,bottom,left;
+@each $bw in $border-width {
+    %border-width-#{$bw}{
+        border-width: #{$bw}px;
+    }
+    @each $p in $position {
+        %border-width-#{$p}-#{$bw}{
+            border-#{$p}-width: #{$bw}px;
+        }
+    }
+}
+@each $bs in $border-style {
+    %border-style-#{$bs}{
+        border-style: $bs;
+    }
+    @each $p in $position {
+        %border-style-#{$p}-#{$bs}{
+            border-#{$p}-style: $bs;
+        }
+    }
+}
+@each $name,$bc in $colors {
+    %border-color-#{$name}{
+        border-color: $bc;
+    }
+    @each $p in $position {
+        %border-color-#{$p}-#{$name}{
+            border-#{$p}-color: $bc;
+        }
+    }
+}
+    // End loop list border
+// border-radius
+   // Start loop list border-radius
+$size_border-radius: 0,2,4,5,6,8,10,12,14,15,16,20;
+@each $sb in $size_border-radius {
+    %border-radius-#{$sb}{
+        border-radius: #{$sb}px;
+    }
+    %border-radius-top-right-#{$sb}{
+        border-top-right-radius: $sb+px;
+    }
+    %border-radius-bottom-right-#{$sb}{
+        border-bottom-right-radius: $sb+px;
+    }
+    %border-radius-top-left-#{$sb}{
+        border-top-left-radius: $sb+px;
+    }
+    %border-radius-bottom-left-#{$sb}{
+        border-bottom-left-radius: $sb+px;
+    }
+}
+    // End loop list border-radius
+// box-shadow
+    // Start loop box-shadow
+@mixin box-shadow($b,$c,$value) {
+    %#{$b}-#{$c}:hover{
+        -webkit-#{$b}    : $value;
+        -moz-#{$b}       : $value;
+    }   
+}
+@each $name,$bs in $colors {
+    $value : 0px 0px 14px $bs;
+    @include box-shadow(box-shadow,$name,$value);
+    %box-shadow-#{$name}:hover{
+        box-shadow: $value;
+    }
+}
+    // End loop box-shadow
+// transition 
+    // Start loop list transition
+@mixin transition-property_prefix($b,$c){
+    %#{$b}-#{$c}{
+        -webkit-#{$b}    : $c;
+        -moz-#{$b}       : $c;
+        -o-#{$b}         : $c;
+        -ms-#{$b}        : $c;
+    }
+}
+@mixin transition-timing-function_prefix($b,$c){
+    %#{$b}-#{$c}{
+        -webkit-#{$b}    : $c;
+        -moz-#{$b}       : $c;
+    }
+}
+$transition-property:box-shadow,all,transform,overflow;
+$transition-timing-function:ease,ease-in,ease-out,ease-in-out,linear;
+$transition-duration: 1,2,3,4,5,6,7,8,9,10,20,30;
+$transition-delay:1,2,3,4,5,6,7,8,9,10;
+@each $tp in $transition-property {
+    @include transition-property_prefix(transition-property, $tp);
+    %transition-property-#{$tp}{
+        transition-property:$tp;
+    }
+}
+@each $ttf in $transition-timing-function{
+    @include transition-timing-function_prefix(transition-timing-function, $ttf);
+    %transition-timing-function-#{$ttf}{
+        transition-timing-function:$ttf;
+    }
+}
+@each $td in $transition-duration {
+    @include transition-property_prefix(transition-property, $td);
+    %transition-duration-#{$td}{
+        transition-duration: ($td / 10) + s;
+    }
+}
+@each $td in $transition-duration {
+    @include transition-property_prefix(transition-property, $td);
+    %transition-delay-#{$td}{
+        @include transition-property_prefix(transition-delay,$td);
+        transition-delay: ($td / 10) + s;
+    }
+}
+    // End loop list transition
+// position 
+    // Start loop list poaition
+$position:relative,absolute,fixed;
+@each $p in $position {
+    %#{$p}{
+        position: $p;
+    }
+}
+    // End loop list poaition
+// Start top right botttom left
+%top{
+    top: 0;
+}
+%right{
+    right: 0;
+}
+%bottom{
+    bottom: 0;
+}
+%left{
+    left: 0;
+    
+}
+// End top right botttom left
+// z-index
+    // Start loop list z-index
+$z-index:-1,0,1,2,3,4,5,6,7,8,9,10,11;
+@each $zi in $z-index {
+    %z-index-#{$zi}{
+        z-index: $zi;
+    }
+}
+@each $zi in $z-index {
+    %z-index-important-#{$zi}{
+        z-index: $zi !important;
+    }
+}
+    // End loop list z-index
+// cursor
+   // Start loop list cursor
+$cursor:not-allowed,zoom-in,pointer,none,auto;
+@each $c in $cursor {
+    %#{$c}{
+        cursor: $c;
+    }
+}
+   // End loop list cursor
+// flexbox parent 
+    // Start loop list flexbox
+$justify-content:center,start,end, flex-start,flex-end,left,right,space-between,space-evenly,stretch,space-around;
+$align-items:flex-start,center,start, end,flex-end;
+$align-content:flex-start,center,stretch, space-between,flex-end,space-around;
+@each $js in $justify-content {
+    %justify-content-#{$js}{
+        justify-content: $js;
+    }
+}
+@each $ai in $align-items {
+    %align-items-#{$ai}{
+        align-items: $ai;
+    }
+}
+@each $ac in $align-content {
+    %align-content-#{$ac}{
+        align-content: $ac;
+    }
+}
+    // End loop list flexbox
+// flexbox children
+    // Start loop list flexbox
+$align-self:auto , flex-start , flex-end , center , baseline , stretch;
+@each $as in $align-self {
+    %align-self-#{$as}{
+        align-self: $as;
+    }
+}
+    // End loop list flexbox
+// flex-direction 
+    // Start loop list flex-direction
+$flex-direction:row,row-reverse,column,column-reverse;
+@each $fd in $flex-direction {
+    %flex-direction-#{$fd}{
+        flex-direction: $fd;
+    }
+}
+    // End loop list flex-direction
+// flex-wrap
+    // Start loop list flex-wrap
+$flex-wrap:nowrap,wrap,wrap-reverse;
+@each $fw in $flex-wrap {
+    %flex-wrap-#{$fw}{
+        flex-wrap: $fw;
+    }
+}
+    // End loop list flex-wrap
+// after and before
+
+// Start loop list content
+%content{
+    content: "";
+}
+// End loop list content
+// opacity
+    // Start loop list opacity
+$opacity:0,1;
+@each $o in $opacity {
+    %opacity-#{$o}{
+        opacity: $o ;
+    }
+}
+@each $o in $opacity {
+    %opacity-important-#{$o}{
+        opacity: $o !important;
+    }
+}
+    // End loop list opacity
+// overflow
+    // Start loop list overflow
+$overflow:visible,hidden,clip,scroll,auto;
+@each $o in $overflow {
+    %overflow-#{$o}{
+        overflow: $o ;
+    }
+}
+@each $o in $opacity {
+    %opacity-important-#{$o}{
+        opacity: $o !important;
+    }
+}
+    // End loop list overflow
+// vertical-align
+    // Start loop list vertical-align
+$vertical-align:baseline,sub,super,text-top,text-bottom,middle,top,bottom;
+@each $va in $vertical-align {
+    %vertical-align-#{$va}{
+        vertical-align: $va;
+    }
+}
+    // End loop list vertical-align
+// height width
+%height-100{
+    height: 100%;
+}
+%width-100{
+    width: 100%;
+}
