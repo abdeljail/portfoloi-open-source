@@ -10,9 +10,7 @@ In short, an online portfolio is a website you create to show off your skills,
 experience, projects, and even your personality to potential clients and/or employers
 ```
 `
-
 There are tons of benefits to building your own portfolio website, including:
-
 `
 
 [ :point_right: ]  Increased visibility, credibility and authority in your industry
