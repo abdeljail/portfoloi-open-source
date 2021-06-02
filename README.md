@@ -10,9 +10,13 @@ In short, an online portfolio is a website you create to show off your skills, e
 There are tons of benefits to building your own portfolio website, including:
 `
 [ :point_right: ] Increased visibility, credibility and authority in your industry
+
 [ :point_right: ] When someone searches your name in Google, your website appears at the top
+
 [ :point_right: ] Hiring managers and clients can find you, instead of you trying to find them 
+
 [ :point_right: ] Gives you a chance to show off your creativity and personality
+
 [ :point_right: ] Shows that you’re a professional, which means employers and clients are more likely to trust you and your work
 
 ```
