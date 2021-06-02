@@ -1,4 +1,4 @@
-# What is a portfolio web developer? :sweat_drops: :building_construction: ```	:briefcase: ```
+# What is a portfolio web developer? :sweat_drops: :building_construction: > :briefcase:
 
 ```
 Building a web development portfolio is a personal project into which you can put maximum effort and heart.
