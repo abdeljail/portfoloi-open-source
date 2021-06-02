@@ -10,7 +10,9 @@ In short, an online portfolio is a website you create to show off your skills,
 experience, projects, and even your personality to potential clients and/or employers
 ```
 `
+
 There are tons of benefits to building your own portfolio website, including:
+
 `
 
 [ :point_right: ]  Increased visibility, credibility and authority in your industry
@@ -24,7 +26,8 @@ There are tons of benefits to building your own portfolio website, including:
 [ :point_right: ]  Shows that you’re a professional, which means employers and clients are more likely to trust you and your work
 
 ```
-** So, what does a portfolio look like and what information does it include? Let’s jump into the 27 things you should consider adding to your tech portfolio website (with real-life portfolio website examples for inspiration). **
+**So, what does a portfolio look like and what information does it include? Let’s jump into the 27 things you should
+consider adding to your tech portfolio website (with real-life portfolio website examples for inspiration).**
 ```
 
 
