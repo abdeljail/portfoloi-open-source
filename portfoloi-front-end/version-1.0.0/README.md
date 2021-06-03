@@ -7,7 +7,7 @@
 
 :hammer: <img src="./js.png">  JAVA SCRIPT
 
-:hammer: <img src="./sass.png">  SASS   **preprocessor scripting language**
+:hammer: <img src="./sass.png">  SASS   &nbsp;([Preprocessor scripting language](https://sass-lang.com/))
 
 
 ## Back End  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./back.png" > 
