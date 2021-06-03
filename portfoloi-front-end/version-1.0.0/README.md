@@ -1,6 +1,6 @@
 # :rooster: Languages created for this Portfoloi :turkey:
 
-## Front End  <br    /><img src="./front.png" > 
+## Front End  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./front.png" > 
 :hammer: <img src="./html.png" >  HTML 5
 
 :hammer: <img src="./css.png" >  CSS 3
@@ -10,7 +10,7 @@
 :hammer: <img src="./sass.png">  SASS   **preprocessor scripting language**
 
 
-## Back End <br    /><img src="./back.png" > 
+## Back End  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./back.png" > 
 
 :hammer: <img src="./php.png" >  PHP
 
