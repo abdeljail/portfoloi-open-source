@@ -156,10 +156,10 @@ section.Specialist .container .content article .header, section.show .container 
   border-color: #20D29E; }
 
 section.Specialist .container .content article, section.show .container .content article {
-  border-color: #F0F2F4; }
+  border-color: #dee2e6; }
 
 section.Specialist .container .content article .header, section.show .container .content article .header {
-  border-bottom-color: #F0F2F4; }
+  border-bottom-color: #dee2e6; }
 
 footer .top .container .content .quote div {
   border-radius: 2px; }
