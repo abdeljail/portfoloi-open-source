@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IAAK;EACD,SAAS,EAAE,GAAG",
+"sources": ["../../../../control-sass/v1.0.0/ar/arindex.scss"],
+"names": [],
+"file": "arindex.css"
+}

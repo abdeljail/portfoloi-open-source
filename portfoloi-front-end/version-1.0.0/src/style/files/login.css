@@ -1,0 +1,374 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.btn-c, div.Start .container .content h3 {
+  color: #20D29E; }
+
+section.Thanks .container .content h1 {
+  color: #141C3A; }
+
+footer .top .container .content .info h2 {
+  color: #010531; }
+
+div.Start .container .content p {
+  color: #F0F2F4; }
+
+div.login-form .container .content .form .f-right .btn button, footer .top .container .content .info a, footer .top .container .content .info span, footer .top .container .content .quote div, footer .bottom .container .content .cp {
+  color: #E7EAEC; }
+
+div.login-form .container .content .form div label {
+  color: #84969F; }
+
+div.Start, footer {
+  background-color: #1E73BB; }
+
+div.Start .container .content, footer .top .container .content .quote div {
+  background-color: #010531; }
+
+hr.h-1 {
+  background-color: #E7EAEC; }
+
+header .container nav .btn button, div.Start .container .content button {
+  padding: 10px 15px; }
+
+div.Start .container .content > :not(button) {
+  padding: 20px 0px; }
+
+* {
+  padding: 0px; }
+
+footer .bottom .container .content .sh div {
+  padding: 8px; }
+
+footer .top .container .content .quote div {
+  padding: 15px; }
+
+div.login-form .container .content .form .f-right .btn button {
+  padding: 16px; }
+
+input, textarea, div.Start .container .content, footer .bottom {
+  padding: 20px; }
+
+div.Start .container .content > :not(button) {
+  padding: 20px 0; }
+
+div.login-form .container .content .form, .container {
+  margin: 0 auto; }
+
+* {
+  margin: 0px; }
+
+footer .bottom .container .content .sh div {
+  margin: 10px; }
+
+div.login-form .container .content .form div div > *, footer .top .container .content .info > *, footer .top .container .content .quote div {
+  margin: 10px 0; }
+
+body {
+  font-size: 16px; }
+
+.btn-c, div.login-form .container .content .form .f-right .btn button {
+  font-size: 18px; }
+
+div.Start .container .content p {
+  font-size: 20px; }
+
+section.Thanks .container .content h1 {
+  font-size: 36px; }
+
+div.Start .container .content h3 {
+  font-size: 40px; }
+
+.btn-c, section.Thanks .container .content, footer .top .container .content .info, footer .top .container .content .quote div {
+  text-align: center; }
+
+.btn-c, div.login-form .container .content .form .f-right .btn button {
+  text-transform: capitalize; }
+
+div.login-form .container .content .form div div > * {
+  display: block; }
+
+header .container nav, header .container nav .btn, .btn-i, div.login-form .container .content .form, div.login-form .container .content .form .f-left, div.login-form .container .content .form .f-right, div.Start .container .content, footer .top .container .content, footer .bottom .container .content, footer .bottom .container .content .cp, footer .bottom .container .content .sh, footer .bottom .container .content .sh div {
+  display: flex; }
+
+input, textarea, div.login-form .container .content .form .f-right .btn button, footer .bottom .container .content .sh div {
+  border-width: 1px; }
+
+.btn-c, input, textarea {
+  border-width: 2px; }
+
+.btn-c, input, textarea, div.login-form .container .content .form .f-right .btn button, footer .bottom .container .content .sh div {
+  border-style: solid; }
+
+.btn-c, div.login-form .container .content .form .f-right .btn button {
+  border-color: #20D29E; }
+
+input, textarea {
+  border-color: #F0F2F4; }
+
+input, textarea {
+  border-color: #E7EAEC; }
+
+input, textarea, footer .top .container .content .quote div {
+  border-radius: 2px; }
+
+.btn-c, header .container nav .btn button, div.login-form .container .content .form .f-right .btn button, div.Start .container .content {
+  border-radius: 4px; }
+
+input, textarea {
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  -ms-transition-property: box-shadow; }
+
+input, textarea {
+  transition-property: box-shadow; }
+
+.btn-c, footer .bottom .container .content .sh div {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -ms-transition-property: background-color; }
+
+.btn-c, footer .bottom .container .content .sh div {
+  transition-property: background-color; }
+
+.btn-c, input, textarea, footer .bottom .container .content .sh div {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out; }
+
+.btn-c, input, textarea, footer .bottom .container .content .sh div {
+  transition-timing-function: ease-out; }
+
+.btn-c, input, textarea, footer .bottom .container .content .sh div {
+  transition-duration: 0.4s; }
+
+div.Start .container .content {
+  position: relative; }
+
+.btn-c, header .container nav .logo img, div.login-form .container .content .form div label, div.login-form .container .content .form .f-right .btn button, footer .bottom .container .content .sh div {
+  cursor: pointer; }
+
+.btn-i, footer .bottom .container .content .cp, footer .bottom .container .content .sh div {
+  justify-content: center; }
+
+header .container nav, header .container nav .btn, div.login-form .container .content .form, div.login-form .container .content .form .f-right, div.Start .container .content, footer .top .container .content, footer .bottom .container .content, footer .bottom .container .content .sh {
+  justify-content: space-between; }
+
+.btn-i, footer .bottom .container .content .cp, footer .bottom .container .content .sh div {
+  align-items: center; }
+
+.btn-c {
+  align-self: center; }
+
+div.login-form .container .content .form .f-left, div.login-form .container .content .form .f-right {
+  flex-direction: column; }
+
+div.login-form .container .content .form {
+  flex-wrap: wrap; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+hr {
+  height: 1px;
+  border: none; }
+
+.btn-c {
+  background-color: transparent;
+  outline: none; }
+  .btn-c:hover {
+    background-color: #20d29d2c; }
+  .btn-c:active {
+    box-shadow: 0 0 0 2px #20d29d52; }
+
+body {
+  font-family: "Hammersmith One", sans-serif; }
+
+body::-webkit-scrollbar {
+  width: 6px; }
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #010531; }
+
+body::-webkit-scrollbar-track {
+  background: #E7EAEC;
+  border-left: 1px solid #ddd; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #010531;
+  border-radius: 1px; }
+
+header .container nav {
+  padding: 30px 0 !important; }
+
+input, textarea {
+  background-color: #f9f9f9;
+  outline: none; }
+
+hr.h-1 {
+  height: 5px; }
+
+.btn-i img {
+  width: 28px; }
+
+section.Thanks {
+  padding-top: 60px;
+  padding-bottom: 90px; }
+
+div.login-form {
+  height: 80vh; }
+  div.login-form .container .content .form {
+    width: 950px; }
+    div.login-form .container .content .form div input, div.login-form .container .content .form div textarea {
+      width: 90%; }
+      div.login-form .container .content .form div input:focus, div.login-form .container .content .form div textarea:focus {
+        box-shadow: 0 0 0px 2px #010531b8; }
+    div.login-form .container .content .form > div:first-child {
+      -webkit-box-flex: 0.5;
+      -ms-flex-positive: 0.5;
+      flex-grow: 0.5; }
+    div.login-form .container .content .form > div:last-child {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1; }
+    div.login-form .container .content .form .input-err {
+      box-shadow: 0 0 0 2px rgba(245, 98, 98, 0.801);
+      border-color: #f56262; }
+    div.login-form .container .content .form .f-right .f-mes textarea {
+      height: 167px;
+      resize: none; }
+    div.login-form .container .content .form .f-right .btn button {
+      width: 250px;
+      background: none !important;
+      color: #20D29E !important;
+      margin: 10px auto; }
+      div.login-form .container .content .form .f-right .btn button:active {
+        box-shadow: 0 0 0 2px #20d29d75; }
+
+div.Start {
+  margin-top: 180px; }
+  div.Start .container .content {
+    top: -70px; }
+    div.Start .container .content p {
+      line-height: 32px; }
+
+footer hr {
+  background-color: #1A64A2; }
+footer .top {
+  padding: 40px 0 100px; }
+  footer .top .container .content .info a {
+    text-decoration: none; }
+footer .bottom .container .content .sh div {
+  border-color: #1A64A2;
+  border-radius: 50%; }
+  footer .bottom .container .content .sh div img {
+    width: 32px;
+    height: 32px; }
+  footer .bottom .container .content .sh div:hover {
+    background-color: #20d29d48; }
+
+.container {
+  width: 1200px; }
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 540px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 720px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 960px; } }
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px; } }
+
+@media (max-width: 576px) {
+  div.login-form .container .content .form {
+    width: 300px !important;
+    justify-content: center; }
+    div.login-form .container .content .form > div {
+      width: 100% !important;
+      flex-grow: 0 !important; }
+    div.login-form .container .content .form input, div.login-form .container .content .form textarea, div.login-form .container .content .form button {
+      width: 100% !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  div.login-form .container .content .form {
+    width: 540px !important;
+    justify-content: center; }
+    div.login-form .container .content .form > div {
+      width: 80% !important;
+      flex-grow: 0 !important; }
+    div.login-form .container .content .form input, div.login-form .container .content .form textarea {
+      width: 100% !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.login-form .container .content .form {
+    width: 700px !important;
+    justify-content: center; }
+    div.login-form .container .content .form > div {
+      width: 70% !important;
+      flex-grow: 0 !important; }
+    div.login-form .container .content .form input, div.login-form .container .content .form textarea {
+      width: 100% !important; } }
+
+@media (max-width: 576px) {
+  div.Start .container {
+    width: 100% !important; }
+    div.Start .container .content {
+      flex-direction: column;
+      flex-wrap: wrap; }
+      div.Start .container .content h3, div.Start .container .content p {
+        text-align: center; }
+      div.Start .container .content p .on {
+        display: none; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  div.Start .container {
+    width: 100% !important; }
+    div.Start .container .content {
+      flex-direction: column;
+      flex-wrap: wrap; }
+      div.Start .container .content h3, div.Start .container .content p {
+        text-align: center; }
+      div.Start .container .content p .on {
+        display: none; } }
+
+@media (max-width: 576px) {
+  footer .top .container .content, footer .bottom .container .content {
+    flex-direction: column; }
+  footer .top .container .content {
+    flex-direction: column; }
+    footer .top .container .content > div:last-child {
+      padding-top: 50px; }
+      footer .top .container .content > div:last-child div {
+        width: 300px;
+        margin: 10px auto; }
+  footer .bottom .container .content div {
+    padding: 10px 0 0; }
+  footer .bottom .container .content div:last-child {
+    flex-wrap: wrap; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .container .content {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=login.css.map */

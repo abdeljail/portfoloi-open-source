@@ -1,0 +1,529 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+section.Specialist .container .content article .header .h3-2, section.Specialist .container .content article .body.b1 h4.h4 {
+  color: #1E73BB; }
+
+.btn-c, section.show .container .content article .body span, div.Start .container .content h3 {
+  color: #20D29E; }
+
+section.front-end .container .content h1, section.Specialist .container .content article .header .h3-1, section.Specialist .container .content article .body.b1 p, section.Specialist .container .content article .body.b2 div, section.show .container .content article .header h3, section.show .container .content article .body p, section.investing .container .content h2 {
+  color: #141C3A; }
+
+footer .top .container .content .info h2 {
+  color: #010531; }
+
+section.front-end .container .content p, section.Specialist .container .content article .body.b1 h4 {
+  color: #666F70; }
+
+section.Abdeljalil-Khalal .container .content > *, section.Projects .container .content > *, div.Start .container .content p {
+  color: #F0F2F4; }
+
+footer .top .container .content .info a, footer .top .container .content .info span, footer .top .container .content .quote div, footer .bottom .container .content .cp {
+  color: #E7EAEC; }
+
+section.investing .container .content p {
+  color: #84969F; }
+
+section.Abdeljalil-Khalal, section.Projects, div.Start, footer {
+  background-color: #1E73BB; }
+
+div.Start .container .content, footer .top .container .content .quote div {
+  background-color: #010531; }
+
+.silce {
+  background-color: #F0F2F4; }
+
+section.front-end .container .content > *, section.Abdeljalil-Khalal .container .content > *, section.Projects .container .content > *, section.investing .container .content > * {
+  padding: 10px 0px; }
+
+header .container nav .btn button, section.investing .container .content button, div.Start .container .content button {
+  padding: 10px 15px; }
+
+div.Start .container .content > :not(button) {
+  padding: 20px 0px; }
+
+* {
+  padding: 0px; }
+
+footer .bottom .container .content .sh div {
+  padding: 8px; }
+
+section.Specialist .container .content article .header > *, section.Specialist .container .content article .body > *, section.show .container .content article .header > *, section.show .container .content article .body > * {
+  padding: 10px; }
+
+footer .top .container .content .quote div {
+  padding: 15px; }
+
+section.Specialist .container .content article > *, section.show .container .content article > *, div.Start .container .content, footer .bottom {
+  padding: 20px; }
+
+section.front-end .container .content > *, section.Abdeljalil-Khalal .container .content > *, section.Projects .container .content > *, section.investing .container .content > * {
+  padding: 10px 0; }
+
+div.Start .container .content > :not(button) {
+  padding: 20px 0; }
+
+section.front-end .container .content, section.Abdeljalil-Khalal .container .content, section.Projects .container .content, section.investing .container .content {
+  padding-top: 20px; }
+
+section.front-end .container .content, section.Abdeljalil-Khalal .container .content, section.Projects .container .content, section.investing .container .content, .container {
+  margin: 0 auto; }
+
+* {
+  margin: 0px; }
+
+footer .bottom .container .content .sh div {
+  margin: 10px; }
+
+section.Specialist .container .content article .body.b1 p, section.show .container .content article .body p, footer .top .container .content .info > *, footer .top .container .content .quote div {
+  margin: 10px 0; }
+
+section.front-end .container .content > *, section.Abdeljalil-Khalal .container .content > *, section.Projects .container .content > *, section.investing .container .content > * {
+  margin: 20px 0; }
+
+section.show .container .content article .body span i {
+  margin-right: 8px; }
+
+section.front-end .container .content, section.Abdeljalil-Khalal .container .content, section.Projects .container .content, section.investing .container .content {
+  margin-top: 20px; }
+
+section.Specialist .container .content article .header .h3-2 {
+  font-weight: 400; }
+
+section.Specialist .container .content article .body.b2 div {
+  font-weight: 700; }
+
+section.front-end .container .content h1, section.Specialist .container .content article .header .h3-1, section.Specialist .container .content article .body.b2 div strong, section.show .container .content article .header h3 {
+  font-weight: bold; }
+
+body {
+  font-size: 16px; }
+
+.btn-c, section.Specialist .container .content article .header .h3-2, section.Specialist .container .content article .body.b2 div, section.show .container .content article .header h3 {
+  font-size: 18px; }
+
+section.Specialist .container .content article .body.b1 h4.h4, div.Start .container .content p {
+  font-size: 20px; }
+
+section.Abdeljalil-Khalal .container .content p, section.Projects .container .content p, section.investing .container .content p {
+  font-size: 22px; }
+
+section.front-end .container .content p {
+  font-size: 28px; }
+
+section.Specialist .container .content article .header .h3-1, section.show .container .content article .header h3 {
+  font-size: 30px; }
+
+div.Start .container .content h3 {
+  font-size: 40px; }
+
+section.front-end .container .content h1 {
+  font-size: 80px; }
+
+.btn-c, section.front-end .container .content, .con-img-code, section.Abdeljalil-Khalal .container .content, section.Specialist .container .content article .header, section.Specialist .container .content article .body.b1 h4, section.Specialist .container .content article .body.b1 p, section.Specialist .container .content article .body.b2 div, section.Projects .container .content, section.show .container .content article .body, section.investing .container .content, footer .top .container .content .info, footer .top .container .content .quote div {
+  text-align: center; }
+
+.btn-c, h1, h4, h3, section.Abdeljalil-Khalal .container .content p, section.Projects .container .content p, section.show .container .content article .body p, section.investing .container .content p {
+  text-transform: capitalize; }
+
+section.Specialist .container .content article .body.b2 div {
+  text-transform: uppercase; }
+
+header .container nav, header .container nav .btn, section.Specialist .container .content, section.show .container .content, section.show .container .content article .header, div.Start .container .content, footer .top .container .content, footer .bottom .container .content, footer .bottom .container .content .cp, footer .bottom .container .content .sh, footer .bottom .container .content .sh div {
+  display: flex; }
+
+footer .bottom .container .content .sh div {
+  border-width: 1px; }
+
+.btn-c, section.Specialist .container .content article, section.show .container .content article {
+  border-width: 2px; }
+
+section.Specialist .container .content article .header, section.show .container .content article .header {
+  border-bottom-width: 2px; }
+
+.btn-c, section.Specialist .container .content article, section.show .container .content article, footer .bottom .container .content .sh div {
+  border-style: solid; }
+
+section.Specialist .container .content article .header, section.show .container .content article .header {
+  border-bottom-style: solid; }
+
+.btn-c, section.Specialist .container .content article:hover, section.show .container .content article:hover {
+  border-color: #20D29E; }
+
+section.Specialist .container .content article, section.show .container .content article {
+  border-color: #F0F2F4; }
+
+section.Specialist .container .content article .header, section.show .container .content article .header {
+  border-bottom-color: #F0F2F4; }
+
+footer .top .container .content .quote div {
+  border-radius: 2px; }
+
+.btn-c, header .container nav .btn button, section.Specialist .container .content article, section.show .container .content article, section.investing .container .content button, div.Start .container .content {
+  border-radius: 4px; }
+
+.btn-c, footer .bottom .container .content .sh div {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -ms-transition-property: background-color; }
+
+.btn-c, footer .bottom .container .content .sh div {
+  transition-property: background-color; }
+
+section.Specialist .container .content article, section.show .container .content article {
+  -webkit-transition-property: border;
+  -moz-transition-property: border;
+  -o-transition-property: border;
+  -ms-transition-property: border; }
+
+section.Specialist .container .content article, section.show .container .content article {
+  transition-property: border; }
+
+.btn-c, section.Specialist .container .content article, section.show .container .content article, footer .bottom .container .content .sh div {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out; }
+
+.btn-c, section.Specialist .container .content article, section.show .container .content article, footer .bottom .container .content .sh div {
+  transition-timing-function: ease-out; }
+
+section.Specialist .container .content article, section.show .container .content article {
+  transition-duration: 0.2s; }
+
+.btn-c, footer .bottom .container .content .sh div {
+  transition-duration: 0.4s; }
+
+.con-img-code, div.Start .container .content {
+  position: relative; }
+
+.con-img-code {
+  z-index: -1; }
+
+.btn-c, header .container nav .logo img, footer .bottom .container .content .sh div {
+  cursor: pointer; }
+
+footer .bottom .container .content .cp, footer .bottom .container .content .sh div {
+  justify-content: center; }
+
+section.Specialist .container .content, section.show .container .content {
+  justify-content: start; }
+
+header .container nav, header .container nav .btn, div.Start .container .content, footer .top .container .content, footer .bottom .container .content, footer .bottom .container .content .sh {
+  justify-content: space-between; }
+
+footer .bottom .container .content .cp, footer .bottom .container .content .sh div {
+  align-items: center; }
+
+section.show .container .content article .header {
+  align-content: center; }
+
+.btn-c, section.show .container .content article .header h3 {
+  align-self: center; }
+
+section.Specialist .container .content, section.show .container .content {
+  flex-wrap: wrap; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+hr {
+  height: 1px;
+  border: none; }
+
+.btn-c {
+  background-color: transparent;
+  outline: none; }
+  .btn-c:hover {
+    background-color: #20d29d2c; }
+  .btn-c:active {
+    box-shadow: 0 0 0 2px #20d29d52; }
+
+body {
+  font-family: "Hammersmith One", sans-serif; }
+
+body::-webkit-scrollbar {
+  width: 6px; }
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #010531; }
+
+body::-webkit-scrollbar-track {
+  background: #E7EAEC;
+  border-left: 1px solid #ddd; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #010531;
+  border-radius: 1px; }
+
+header .container nav {
+  padding: 30px 0 !important; }
+
+h1, h4, h3 {
+  font-family: "Dancing Script", cursive; }
+
+.btn-c {
+  background-color: transparent;
+  outline: none; }
+  .btn-c:hover {
+    background-color: #20d29d2c; }
+  .btn-c:active {
+    box-shadow: 0 0 0 2px #20d29d52; }
+
+header .container nav {
+  padding: 30px 0; }
+
+.con-img-code {
+  bottom: -100px; }
+
+section.Abdeljalil-Khalal .container .content {
+  padding: 90px 10px;
+  width: 700px;
+  height: 600px; }
+  section.Abdeljalil-Khalal .container .content h2 {
+    letter-spacing: 1.7px; }
+  section.Abdeljalil-Khalal .container .content p {
+    line-height: 40px; }
+
+section.Specialist {
+  margin-top: -180px; }
+  section.Specialist .container .content article {
+    background-color: #fff;
+    margin: 20px .5%;
+    width: 32.33%; }
+    section.Specialist .container .content article .header .img img {
+      width: 50px; }
+    section.Specialist .container .content article .header .h3-2 {
+      font-family: "Hammersmith One", sans-serif; }
+    section.Specialist .container .content article .body .img-quote img:last-child {
+      margin-left: calc(100% - 16px); }
+    section.Specialist .container .content article .body.b1 h4 {
+      font-family: "Hammersmith One", sans-serif; }
+    section.Specialist .container .content article .body.b1 p {
+      font-family: "Hammersmith One", sans-serif; }
+
+.silce {
+  margin: 100px 0; }
+
+section.Projects .container .content {
+  padding: 90px 10px;
+  width: 700px;
+  height: 600px; }
+  section.Projects .container .content h2 {
+    letter-spacing: 1.7px; }
+  section.Projects .container .content p {
+    line-height: 40px; }
+
+section.show {
+  margin-top: -160px; }
+  section.show .container .content article {
+    background-color: #fff;
+    margin: 20px .5%;
+    width: 32.33%; }
+    section.show .container .content article .header .img img {
+      width: 60px; }
+    section.show .container .content article .header h3 {
+      font-family: "Hammersmith One", sans-serif; }
+    section.show .container .content article .body p {
+      height: 80%px;
+      line-height: 26px;
+      font-family: "Hammersmith One", sans-serif; }
+    section.show .container .content article .body span i {
+      vertical-align: middle; }
+
+section.investing .container .content {
+  padding: 90px  10px 0;
+  width: 700px; }
+  section.investing .container .content h2 {
+    letter-spacing: 1.7px; }
+  section.investing .container .content p {
+    line-height: 40px; }
+
+div.Start {
+  margin-top: 180px; }
+  div.Start .container .content {
+    top: -70px; }
+    div.Start .container .content p {
+      line-height: 32px; }
+
+footer hr {
+  background-color: #1A64A2; }
+footer .top {
+  padding: 40px 0 100px; }
+  footer .top .container .content .info a {
+    text-decoration: none; }
+footer .bottom .container .content .sh div {
+  border-color: #1A64A2;
+  border-radius: 50%; }
+  footer .bottom .container .content .sh div img {
+    width: 32px;
+    height: 32px; }
+  footer .bottom .container .content .sh div:hover {
+    background-color: #20d29d48; }
+
+.container {
+  width: 1200px; }
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 540px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 720px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 960px; } }
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px; } }
+
+header .container nav {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+@media (max-width: 576px) {
+  section.front-end .container .content h1 {
+    font-size: 71px !important;
+    line-height: 80px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  section.front-end .container .content h1 {
+    font-size: 71px !important; } }
+
+@media (max-width: 576px) {
+  div.con-img-code .container .content img {
+    width: 300px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  div.con-img-code .container .content img {
+    width: 300px; } }
+
+@media (max-width: 576px) {
+  section.Abdeljalil-Khalal {
+    height: 726px; }
+    section.Abdeljalil-Khalal .container .content {
+      width: 100% !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  section.Abdeljalil-Khalal .container .content {
+    width: 100% !important; } }
+
+@media (max-width: 576px) {
+  section.Specialist .container .content article {
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  section.Specialist .container .content article {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section.Specialist .container .content article {
+    width: 49% !important; }
+    section.Specialist .container .content article .header h3 {
+      font-size: 25px !important;
+      padding: 10 0 !important; }
+  section.Specialist .container .content article:nth-child(3), section.Specialist .container .content article:nth-child(6) {
+    margin-left: calc(51% / 2) !important; } }
+
+@media (max-width: 576px) {
+  section.Projects {
+    height: 726px; }
+    section.Projects .container .content {
+      width: 100% !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  section.Projects .container .content {
+    width: 100% !important; } }
+
+@media (max-width: 576px) {
+  section.show .container .content article {
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+    section.show .container .content article .header {
+      padding: 10px !important; }
+      section.show .container .content article .header h3 {
+        font-size: 15px !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  section.show .container .content article {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section.show .container .content article {
+    width: 49% !important; }
+    section.show .container .content article .header h3 {
+      font-size: 28px !important;
+      padding: 10 0 !important; } }
+
+@media (max-width: 576px) {
+  section.investing .container .content {
+    width: 100% !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  section.investing .container .content {
+    width: 100% !important; } }
+
+@media (max-width: 576px) {
+  div.Start .container {
+    width: 100% !important; }
+    div.Start .container .content {
+      flex-direction: column;
+      flex-wrap: wrap; }
+      div.Start .container .content h3, div.Start .container .content p {
+        text-align: center; }
+      div.Start .container .content p .on {
+        display: none; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  div.Start .container {
+    width: 100% !important; }
+    div.Start .container .content {
+      flex-direction: column;
+      flex-wrap: wrap; }
+      div.Start .container .content h3, div.Start .container .content p {
+        text-align: center; }
+      div.Start .container .content p .on {
+        display: none; } }
+
+@media (max-width: 576px) {
+  footer .top .container .content, footer .bottom .container .content {
+    flex-direction: column; }
+  footer .top .container .content {
+    flex-direction: column; }
+    footer .top .container .content > div:last-child {
+      padding-top: 50px; }
+      footer .top .container .content > div:last-child div {
+        width: 300px;
+        margin: 10px auto; }
+  footer .bottom .container .content div {
+    padding: 10px 0 0; }
+  footer .bottom .container .content div:last-child {
+    flex-wrap: wrap; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .container .content {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=index.css.map */
