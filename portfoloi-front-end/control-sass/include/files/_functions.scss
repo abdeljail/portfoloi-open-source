@@ -1,46 +1,13 @@
+@import "./varaibles";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $back:(attachment:fixed,repeat:no-repeat,size:cover);
-// @mixin background{
-//     @each $b, $c in $back{
-    
-//         .background-#{$b}{
-    
-//             $background: background-#{$b};
-    
-//             @include background-A-S-R($background,$c)
-//         }
-//     }
-// }
-
-// @include background();
+@function font-family($nameFont: null) {
+    @if $nameFont == null {
+        @return sans-serif;
+    }
+    @each $name, $f in $fontFamily {
+        @if $name == $nameFont {
+            @return $f;
+        }
+    }
+    @error "Unknown direction #{$nameFont}.";
+}

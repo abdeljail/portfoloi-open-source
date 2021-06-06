@@ -2,6 +2,161 @@
 @import "../../include/files/extend";
 @import "../../include/files/functions";
 @import "../../include/files/mixin";
+@import "header";
 
+input, textarea {
+    @include input;
+}
+
+hr.h-1 {
+    @extend %background-color-v-100_c7;
+
+    height: 5px;
+}
+
+.btn-i {
+    @include flex-JC-AI-center;
+
+    img {
+        @include width(28);
+    }
+}
+
+//  start section  Thanks
+section.Thanks {
+    padding-top: 60px;
+    padding-bottom: 90px;
+
+    .container {
+        .content {
+            @extend %center;
+
+            h1 {
+                @extend %font-size-36;
+
+                @extend %color-v-100_c3;
+            }
+        }
+    }
+}
+
+//  start section  Thanks
+
+// Start div form
+div.login-form {
+    height: 80vh;
+
+    .container {
+        .content {
+            .form {
+                @include width(950);
+
+                @extend %display-flex;
+
+                @extend %justify-content-space-between;
+
+                @extend %flex-wrap-wrap;
+
+                @extend %margin-auto;
+
+                div {
+                    // @extend %margin-20-0;
+
+                    div > * {
+                        @extend %display-block;
+
+                        @extend %margin-10-0;
+                    }
+
+                    label {
+                        @extend %pointer;
+
+                        @extend %color-v-100_c8;
+                    }
+
+                    input, textarea {
+                        width: 90%;
+
+                        &:focus {
+                            box-shadow: 0 0 0px 2px #010531b8;
+                        }
+                    }
+                }
+
+                > div:first-child {
+                    @include flex-grow(0.5);
+                }
+
+                > div:last-child {
+                    @include flex-grow(1);
+                }
+
+                .f-left {
+                    @extend %display-flex;
+
+                    @extend %flex-direction-column;
+                }
+
+                .input-err {
+                    box-shadow: 0 0 0 2px rgba(245, 98, 98, 0.801);
+                    border-color: rgb(245, 98, 98);
+                }
+
+                .f-right {
+                    @extend %display-flex;
+
+                    @extend %flex-direction-column;
+
+                    @extend %justify-content-space-between;
+
+                    .f-mes {
+                        textarea {
+                            @include height(167);
+
+                            resize: none;
+                        }
+                    }
+
+                    .btn {
+                        button {
+                            @include width(250);
+
+                            @extend %padding-16;
+
+                            @extend %capitalize;
+
+                            @extend %border-style-solid;
+
+                            @extend %border-width-1;
+
+                            @extend %border-radius-4;
+
+                            @extend %pointer;
+
+                            @extend %border-color-v-100_c2;
+
+                            @extend %font-size-18;
+
+                            @extend %color-v-100_c7;
+
+                            background: none !important;
+                            color: #20D29E !important;
+                            margin: 10px auto;
+
+                            &:active {
+                                box-shadow: 0 0 0 2px #20d29d75;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End div form
+
+@import "footer";
 @import "../mediaQuery/container";
 @import "../mediaQuery/login";
+@import "../mediaQuery/footer";

@@ -1,159 +1,342 @@
 // prefix
-    // Start prefix
-@mixin prefix($b,$c){
-    -webkit-#{$b}    : $c;
-    -moz-#{$b}       : $c;
-    -o-#{$b}         : $c;
-    -ms-#{$b}        : $c;
-    #{$b}            :$c
+// Start prefix
+@mixin prefix($b, $c) {
+    -webkit-#{$b}: $c;
+    -moz-#{$b}: $c;
+    -o-#{$b}: $c;
+    -ms-#{$b}: $c;
+    #{$b}: $c;
 }
-   // End prefix
+
+// End prefix
 // list background
-    // Start loop list background
-$back:(attachment:fixed,repeat:no-repeat,size:cover);
-@mixin background{
-    @each $b, $c in $back{
-        %background-#{$b}{
+// Start loop list background
+$back: (attachment: fixed, repeat: no-repeat, size: cover);
+
+@mixin background {
+    @each $b, $c in $back {
+        %background-#{$b} {
             $background: background-#{$b};
-            @include prefix($background,$c);
+
+            @include prefix($background, $c);
         }
     }
 }
-    // End loop list background
-@include background();
+
+// End loop list background
+@include background;
+
 // box-sizing
-%box-sizing{
-    @include prefix(box-sizing,border-box);
-    // flex-basis: ;
+%box-sizing {
+    @include prefix(box-sizing, border-box);
 }
+
 // children
 
-   // Start flex-order
-@mixin flex-order($v){
-    -webkit-box-ordinal-group:$v;
-    -ms-flex-order:$v;
+// Start flex-order
+@mixin flex-order($v) {
+    -webkit-box-ordinal-group: $v;
+    -ms-flex-order: $v;
     order: $v;
 }
-   // End flex-order
-    // Start flex-grow
-@mixin flex-grow($v){
-    -webkit-box-flex:$v;
-    -ms-flex-positive:$v;
-    flex-grow:$v;
+
+// End flex-order
+// Start flex-grow
+@mixin flex-grow($v) {
+    -webkit-box-flex: $v;
+    -ms-flex-positive: $v;
+    flex-grow: $v;
 }
-   // End flex-grow
-    // Start flex-shrink
-@mixin flex-shrink($v){
-    -ms-flex-negative:$v;
-      flex-shrink:$v;
+
+// End flex-grow
+// Start flex-shrink
+@mixin flex-shrink($v) {
+    -ms-flex-negative: $v;
+    flex-shrink: $v;
 }
-   // End flex-shrink
-    // Start flex-basis
-@mixin flex-basis($v){
-    -ms-flex-preferred-size:$v;
-    flex-basis:$v;
+
+// End flex-shrink
+// Start flex-basis
+@mixin flex-basis($v) {
+    -ms-flex-preferred-size: $v;
+    flex-basis: $v;
 }
-   // End flex-basis
+
+// End flex-basis
 // z-index
-    // Satart s-index
+// Satart s-index
 @mixin z-index($v) {
     z-index: $v;
 }
-    // End s-index
+
+// End s-index
 // width
-    // Satart width
+// Satart width
 @mixin width($v) {
-    width: $v+px;
+    width: $v + px;
 }
+
 @mixin min-width($v) {
-    min-width: $v+px;
+    min-width: $v + px;
 }
+
 @mixin max-width($v) {
-    max-width: $v+px;
+    max-width: $v + px;
 }
-    // End width
+
+// End width
 // height
-    // Satart height
+// Satart height
 @mixin height($v) {
-    height: $v+px;
+    height: $v + px;
 }
+
 @mixin min-height($v) {
-    min-height: $v+px;
+    min-height: $v + px;
 }
+
 @mixin max-height($v) {
-    max-height: $v+px;
+    max-height: $v + px;
 }
-    // End width
+
+// End width
 // top and right and bottom and left
 @mixin top($value) {
-    top:$value;
+    top: $value;
 }
+
 @mixin right($value) {
-    right:$value;
+    right: $value;
 }
+
 @mixin bottom($value) {
-    bottom:$value;
+    bottom: $value;
 }
+
 @mixin left($value) {
-    left:$value;
+    left: $value;
 }
-// 
+
+// top and right and bottom and left
+// Start box pack
+@mixin pack {
+    @extend %border-radius-4;
+
+    @extend %border-style-solid;
+
+    @extend %border-width-2;
+
+    @extend %border-color-v-100_c6;
+
+    @extend %transition-property-border;
+
+    @extend %transition-duration-2;
+
+    @extend %transition-timing-function-ease-out;
+
+    &:hover {
+        @extend %border-color-v-100_c2;
+    }
+}
+
+// End box pack
+
+// Start btn
+
+@mixin btn {
+    @extend %align-self-center;
+
+    @extend %border-radius-4;
+
+    @extend %pointer;
+
+    @extend %center;
+
+    @extend %border-style-solid;
+
+    @extend %border-width-2;
+
+    @extend %font-size-18;
+
+    @extend %color-v-100_c2;
+
+    @extend %border-color-v-100_c2;
+
+    @extend %capitalize;
+
+    @extend %transition-property-background-color;
+
+    @extend %transition-duration-4;
+
+    @extend %transition-timing-function-ease-out;
+
+    background-color: transparent;
+    outline: none;
+
+    &:hover {
+        background-color: #20d29d2c;
+    }
+
+    &:active {
+        box-shadow: 0 0 0 2px #20d29d52;
+    }
+}
+
+// End btn
+
+// Start footer div class = "  footer-div-top "
+
+@mixin footer-div-top {
+    @extend %border-radius-4;
+
+    @extend %center;
+
+    @extend %border-style-solid;
+
+    @extend %border-width-1;
+
+    @extend %border-color-v-100_c2;
+}
+
+// End footer div class = "  footer-div-top "
+
+// Start flex justify-content align-items => center
+
+@mixin flex-JC-AI-center {
+    @extend %display-flex;
+
+    @extend %justify-content-center;
+
+    @extend %align-items-center;
+}
+
+// End flex justify-content align-items => center
+// Start flex justify-content(bteween) align-items(center)
+
+@mixin flex-JC-AI-bc {
+    @extend %display-flex;
+
+    @extend %justify-content-space-between;
+
+    // @extend %align-items-center;
+}
+
+// End flex justify-content(bteween) align-items(center)
+// Start flex justify-content(start) flex-Wrap
+
+@mixin flex-JC-Fw-sxw {
+    @extend %display-flex;
+
+    @extend %justify-content-start;
+
+    @extend %flex-wrap-wrap;
+}
+
+// End flex justify-content(bteween) align-items(center)
+
+// start div class working-together
+@mixin working-together {
+    @extend %padding-20;
+
+    @extend %background-color-v-100_c4;
+}
+
+// End div class working-together
+
+// start div class working-together
+
+@mixin input {
+    @extend %border-style-solid;
+
+    @extend %border-width-1;
+
+    @extend %border-color-v-100_c9;
+
+    @extend %padding-20;
+
+    @extend %transition-property-box-shadow;
+
+    @extend %transition-duration-4;
+
+    @extend %transition-timing-function-ease-out;
+
+    @extend %border-radius-2;
+
+    @extend %border-style-solid;
+
+    @extend %border-width-2;
+
+    @extend %border-color-v-100_c6;
+
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+// End div class working-together
+
 // media query
 
 @mixin md-350 {
-    @media (max-width:350px){
+    @media (max-width: 350px) {
         @content;
     }
 }
 
-
-    // Start Extra small
+// Start Extra small
 @mixin md-575 {
-    @media (max-width:576px){
+    @media (max-width: 576px) {
         @content;
     }
 }
-    // Start Extra small
-    // Start  small
+
+// Start Extra small
+// Start  small
 @mixin md-576 {
-    @media (min-width:576px)  {
+    @media (min-width: 576px) {
         @content;
     }
 }
+
 @mixin md-576-767 {
-    @media (min-width:576px) and (max-width:767px) {
+    @media (min-width: 576px) and (max-width: 767px) {
         @content;
     }
 }
-    // Start  small
-    // Start  Medium
+
+// Start  small
+// Start  Medium
 @mixin md-768 {
-    @media (min-width:768px) {
+    @media (min-width: 768px) {
         @content;
     }
 }
+
 @mixin md-768-991 {
-    @media (min-width:768px) and (max-width:991px) {
+    @media (min-width: 768px) and (max-width: 991px) {
         @content;
     }
 }
-    // Start  Medium
-    // Start  Large
+
+// Start  Medium
+// Start  Large
 @mixin md-992 {
-    @media (min-width:992px) {
+    @media (min-width: 992px) {
         @content;
     }
 }
+
 @mixin md-992-1199 {
-    @media (min-width:992px) and (max-width:1199px) {
+    @media (min-width: 992px) and (max-width: 1199px) {
         @content;
     }
 }
-    // Start  Large
-    // Start  XX-Large
+
+// Start  Large
+// Start  XX-Large
 @mixin md-1400 {
-    @media (min-width:1400px) {
+    @media (min-width: 1400px) {
         @content;
     }
 }
-    // Start  XX-Large
+
+// Start  XX-Large

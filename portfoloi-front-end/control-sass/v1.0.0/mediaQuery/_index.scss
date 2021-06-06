@@ -1,22 +1,250 @@
-div{
-    @include md-575{
-        
+//Start section header
+header {
+    .container {
+        nav {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
 }
-div{
-    @include md-576-767{
-       
+
+//Start section header
+
+//Start section front-end
+section.front-end {
+    @include md-575 {
+        .container {
+            .content {
+                h1 {
+                    font-size: 71px !important;
+                    line-height: 80px;
+                }
+            }
+        }
+    }
+
+
+    @include md-576-767 {
+        .container {
+            .content {
+                h1 {
+                    font-size: 71px !important;
+                }
+            }
+        }
     }
 }
-div{
-    @include md-768-991{
+
+//end section front-end
+// Start div content image
+div.con-img-code {
+    @include md-575 {
+        .container {
+            .content {
+                img {
+                    width: 300px;
+                }
+            }
+        }
     }
 }
-div{
-    @include md-992-1199{
+
+div.con-img-code {
+    @include md-576-767 {
+        .container {
+            .content {
+                img {
+                    width: 300px;
+                }
+            }
+        }
     }
 }
-div{
-    @include md-1400{
+
+// End div content image
+
+// Start section Abdeljalil-Khalal
+section.Abdeljalil-Khalal {
+    @include md-575 {
+        height: 726px;
+
+        .container {
+            .content {
+                width: 100% !important;
+            }
+        }
     }
 }
+
+section.Abdeljalil-Khalal {
+    @include md-576-767 {
+        .container {
+            .content {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+// Start section Abdeljalil-Khalal
+
+// Start section Specialist
+section.Specialist {
+    @include md-575 {
+        .container {
+            .content {
+                article {
+                    width: 80% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+            }
+        }
+    }
+}
+
+section.Specialist {
+    @include md-576-767 {
+        .container {
+            .content {
+                article {
+                    width: 90% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+            }
+        }
+    }
+}
+
+section.Specialist {
+    @include md-768-991 {
+        .container {
+            .content {
+                article {
+                    width: 49% !important;
+
+                    .header {
+                        h3 {
+                            font-size: 25px !important;
+                            padding: 10 0 !important;
+                        }
+                    }
+                }
+
+                article:nth-child(3), article:nth-child(6) {
+                    margin-left: calc(51% / 2) !important;
+                }
+            }
+        }
+    }
+}
+
+// Start section Specialist Abdeljalil-Khalal
+
+//  Start section Projects
+section.Projects {
+    @include md-575 {
+        height: 726px;
+
+        .container {
+            .content {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+section.Projects {
+    @include md-576-767 {
+        .container {
+            .content {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+//  Start section Projects
+
+// Start section show
+section.show {
+    @include md-575 {
+        .container {
+            .content {
+                article {
+                    width: 80% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+
+                    .header {
+                        padding: 10px !important;
+
+                        h3 {
+                            font-size: 15px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.show {
+    @include md-576-767 {
+        .container {
+            .content {
+                article {
+                    width: 90% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+            }
+        }
+    }
+}
+
+section.show {
+    @include md-768-991 {
+        .container {
+            .content {
+                article {
+                    width: 49% !important;
+
+                    .header {
+                        h3 {
+                            font-size: 28px !important;
+                            padding: 10 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End section show
+
+//  Start section investing
+section.investing {
+    @include md-575 {
+        .container {
+            .content {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+section.investing {
+    @include md-576-767 {
+        .container {
+            .content {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+//  End section investing
+

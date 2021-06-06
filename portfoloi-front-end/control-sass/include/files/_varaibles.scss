@@ -1,21 +1,32 @@
+// version 1.0.0                        
 // Variables 
-  // Variables should follow 
-  // consistent naming
-    // Color system
+// Variables should follow 
+// consistent naming
+// Color system
 // scss-docs-start color-variables
-$black:         #020313 !default;
-$green:         #009688 !default;
-$dark_green:    #026057 !default;
-$white:         #FFF !default;
-$white_F9:      #F9F9F9 !default;
-$dark_white:    #F0F2F4 !default;
-$gray-500:      #ccc !default;
-$yellow:        #F69A0F !default;
-$blue_sky:      #007EEC !default;
-$success:       #89D8B9 !default;
-$danger:        #D68686 !default;
-$danger_0:        #F15555 !default;
-$info:          #73ADDF !default;
-$para:          #546274;
 
+$v1-0-0-primary1: #1E73BB !default;
+$v1-0-0-primary2: #20D29E !default;
+$v1-0-0-h1: #141C3A !default;
+$v-1-0-0-Section: #010531 !default;
+$v-1-0-0-paragraph: #666F70 !default;
+$v-1-0-0-border: #F0F2F4 !default;
+$v-1-0-0-input: #E7EAEC !default;
+$v-1-0-0-label: #84969F !default;
+$v-1-0-0-border-input: #E7EAEC !default;
+
+// variables colors and background-color
+$colors: ("v-100_c1": $v1-0-0-primary1, "v-100_c2": $v1-0-0-primary2, "v-100_c3": $v1-0-0-h1, "v-100_c4": $v-1-0-0-Section, "v-100_c5": $v-1-0-0-paragraph, "v-100_c6": $v-1-0-0-border, "v-100_c7": $v-1-0-0-input, "v-100_c8": $v-1-0-0-label, "v-100_c9": $v-1-0-0-border-input);
+
+// Variables 
+// Variables should follow 
+// consistent naming
+// font family system
 // scss-docs-start color-variables
+
+$v1-0-0-font1: "Dancing Script";
+$v1-0-0-font2: "Staatliches";
+$v1-0-0-font3: 'Hammersmith One';
+
+// variables font family
+$fontFamily: ("f1": $v1-0-0-font1, "f2": $v1-0-0-font2, "f3": $v1-0-0-font3);

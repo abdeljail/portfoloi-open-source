@@ -1,18 +1,111 @@
-footer {
-    @include md-575 {}
-}
-footer {
-    @include md-576-767 {}
-}
-footer {
-    @include md-768-991 {
+// Start div class start
+div.Start {
+    @include md-575 {
+        .container {
+            width: 100% !important;
+
+            .content {
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                h3, p {
+                    text-align: center;
+                }
+
+                p {
+                    .on {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
-footer {
-    @include md-992-1199 {
+
+div.Start {
+    @include md-576-767 {
+        .container {
+            width: 100% !important;
+
+            .content {
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                h3, p {
+                    text-align: center;
+                }
+
+                p {
+                    .on {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
+
+// End div class start
 footer {
-    @include md-1400 {
+    @include md-575 {
+        .top, .bottom {
+            .container {
+                .content {
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .top {
+            .container {
+                .content {
+                    flex-direction: column;
+
+                    > div:last-child {
+                        padding-top: 50px;
+                        div {
+                            width: 300px;
+                            margin:10px auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .container {
+                .content {
+                    div {
+                        padding: 10px 0 0;
+                    }
+
+                    div:last-child {
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
     }
+}
+
+footer {
+    @include md-576-767 {
+        .container {
+            .content {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+footer {
+    @include md-768-991 {}
+}
+
+footer {
+    @include md-992-1199 {}
+}
+
+footer {
+    @include md-1400 {}
 }

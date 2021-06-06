@@ -3,5 +3,453 @@
 @import "../../include/files/functions";
 @import "../../include/files/mixin";
 
+@import "header";
+
+h1, h4, h3 {
+    font-family: font-family(f1), cursive;
+
+    @extend %capitalize;
+}
+
+.btn-c {
+    @include btn;
+}
+
+// start header
+header {
+    .container {
+        nav {
+            @include flex-JC-AI-bc;
+
+            padding: 30px 0;
+
+            .logo {
+                img {
+                    @extend %pointer;
+                }
+            }
+
+            .btn {
+                button {
+                    @extend %padding-10-15;
+
+                    @extend %border-radius-4;
+                }
+            }
+        }
+    }
+}
+
+// end header
+
+/// Start section front end
+section.front-end {
+    .container {
+        .content {
+            @extend %margin-auto;
+
+            @extend %padding-top-20;
+
+            @extend %center;
+
+            @extend %margin-top-20;
+
+            > * {
+                @extend %margin-20-0;
+
+                @extend %padding-10-0;
+            }
+
+            h1 {
+                @extend %font-size-80;
+
+                @extend %color-v-100_c3;
+
+                @extend %font-weight-bold;
+            }
+
+            p {
+                @extend %color-v-100_c5;
+
+                @extend %font-size-28;
+            }
+        }
+    }
+}
+
+/// End section front end
+
+// Start div content image
+
+.con-img-code {
+    @include bottom(-100px);
+
+    @extend %center;
+
+    @extend %relative;
+
+    @extend %z-index--1;
+
+    .container {
+        .content {}
+    }
+}
+
+// Start div content image
+
+/// Start section Abdeljalil Khalal
+section.Abdeljalil-Khalal {
+    @extend %background-color-v-100_c1;
+
+    .container {
+        .content {
+            padding: 90px 10px;
+
+            @include width(700);
+            @include height(600);
+
+            @extend %margin-auto;
+
+            @extend %padding-top-20;
+
+            @extend %center;
+
+            @extend %margin-top-20;
+
+            > * {
+                @extend %margin-20-0;
+
+                @extend %color-v-100_c6;
+
+                @extend %padding-10-0;
+            }
+
+            h2 {
+                letter-spacing: 1.7px;
+            }
+
+            p {
+                @extend %font-size-22;
+
+                @extend %capitalize;
+
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+/// End section Abdeljalil Khalal
+
+// Start section Specialist
+section.Specialist {
+    margin-top: -180px;
+
+    .container {
+        .content {
+            @include flex-JC-Fw-sxw;
+
+            article {
+                @include pack;
+
+                background-color: #fff;
+                margin: 20px .5%;
+                width: 32.33%;
+
+                > * {
+                    @extend %padding-20;
+                }
+
+                .header {
+                    @extend %border-style-bottom-solid;
+
+                    @extend %border-width-bottom-2;
+
+                    @extend %border-color-bottom-v-100_c6;
+
+                    @extend %center;
+
+                    > * {
+                        @extend %padding-10;
+                    }
+
+                    .img {
+                        img {
+                            @include width(50);
+                        }
+                    }
+
+                    .h3-1 {
+                        @extend %font-size-30;
+
+                        @extend %color-v-100_c3;
+
+                        @extend %font-weight-bold;
+                    }
+
+                    .h3-2 {
+                        @extend %font-size-18;
+
+                        @extend %color-v-100_c1;
+
+                        @extend %font-weight-400;
+
+                        font-family: font-family(f3), font-family();
+                    }
+                }
+
+                .body {
+                    > * {
+                        @extend %padding-10;
+                    }
+
+                    .img-quote {
+                        img:last-child {
+                            margin-left: calc(100% - 16px);
+                        }
+                    }
+                }
+
+                .body.b1 {
+                    h4 {
+                        @extend %color-v-100_c5;
+
+                        @extend %center;
+
+                        font-family: font-family(f3), font-family();
+                    }
+
+                    p {
+                        @extend %color-v-100_c3;
+
+                        @extend %center;
+
+                        @extend %margin-10-0;
+
+                        font-family: font-family(f3), font-family();
+                    }
+
+                    h4.h4 {
+                        @extend %font-size-20;
+
+                        @extend %color-v-100_c1;
+                    }
+                }
+
+                .body.b2 {
+                    div {
+                        @extend %center;
+
+                        @extend %uppercase;
+
+                        @extend %font-size-18;
+
+                        @extend %color-v-100_c3;
+
+                        @extend %font-weight-700;
+
+                        strong {
+                            @extend %font-weight-bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End section Specialist
+
+.silce {
+    @extend %background-color-v-100_c6;
+
+    margin: 100px 0;
+}
+
+// Start section Projects
+section.Projects {
+    @extend %background-color-v-100_c1;
+
+    .container {
+        .content {
+            padding: 90px 10px;
+
+            @include width(700);
+            @include height(600);
+
+            @extend %margin-auto;
+
+            @extend %padding-top-20;
+
+            @extend %center;
+
+            @extend %margin-top-20;
+
+            > * {
+                @extend %margin-20-0;
+
+                @extend %color-v-100_c6;
+
+                @extend %padding-10-0;
+            }
+
+            h2 {
+                letter-spacing: 1.7px;
+            }
+
+            p {
+                @extend %font-size-22;
+
+                @extend %capitalize;
+
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+// End section Projects
+// Start section show
+section.show {
+    margin-top: -160px;
+
+    .container {
+        .content {
+            @include flex-JC-Fw-sxw;
+
+            article {
+                @include pack;
+
+                background-color: #fff;
+                margin: 20px .5%;
+                width: 32.33%;
+
+                > * {
+                    @extend %padding-20;
+                }
+
+                .header {
+                    @extend %border-style-bottom-solid;
+
+                    @extend %border-width-bottom-2;
+
+                    @extend %border-color-bottom-v-100_c6;
+
+                    @extend %display-flex;
+
+                    @extend %align-content-center;
+
+                    > * {
+                        @extend %padding-10;
+                    }
+
+                    .img {
+                        img {
+                            @include width(60);
+                        }
+                    }
+
+                    h3 {
+                        @extend %font-size-30;
+
+                        @extend %color-v-100_c3;
+
+                        @extend %font-weight-bold;
+
+                        @extend %align-self-center;
+
+                        @extend %font-size-18;
+
+                        font-family: font-family(f3), font-family();
+                    }
+                }
+
+                .body {
+                    @extend %center;
+
+                    > * {
+                        @extend %padding-10;
+                    }
+
+                    p {
+                        @include height(80%);
+
+                        @extend %color-v-100_c3;
+
+                        @extend %capitalize;
+
+                        @extend %margin-10-0;
+
+                        line-height: 26px;
+                        font-family: font-family(f3), font-family();
+                    }
+
+                    span {
+                        @extend %color-v-100_c2;
+
+                        i {
+                            @extend %margin-right-8;
+
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End section show
+
+// Start section investing
+section.investing {
+    .container {
+        .content {
+            padding: 90px  10px 0;
+
+            @include width(700);
+
+            @extend %margin-auto;
+
+            @extend %padding-top-20;
+
+            @extend %center;
+
+            @extend %margin-top-20;
+
+            > * {
+                @extend %margin-20-0;
+
+                @extend %padding-10-0;
+            }
+
+            h2 {
+                letter-spacing: 1.7px;
+
+                @extend %color-v-100_c3;
+            }
+
+            p {
+                @extend %font-size-22;
+
+                @extend %capitalize;
+
+                @extend %color-v-100_c8;
+
+                line-height: 40px;
+            }
+
+            button {
+                @extend %padding-10-15;
+
+                @extend %border-radius-4;
+            }
+        }
+    }
+}
+
+// End section investing
+@import "footer";
 @import "../mediaQuery/container";
 @import "../mediaQuery/index";
+@import "../mediaQuery/footer";

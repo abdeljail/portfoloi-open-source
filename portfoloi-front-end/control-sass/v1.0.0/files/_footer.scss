@@ -1,0 +1,153 @@
+// Start div class Start
+div.Start {
+    @extend %background-color-v-100_c1;
+    margin-top: 180px;
+
+    .container {
+        .content {
+            @include flex-JC-AI-bc;
+            @include working-together;
+            @include top(-70px);
+
+            @extend %border-radius-4;
+
+            @extend %relative;
+
+            > *:not(button) {
+                @extend %padding-20-0;
+            }
+
+            h3 {
+                @extend %font-size-40;
+
+                @extend %color-v-100_c2;
+            }
+
+            p {
+                @extend %color-v-100_c6;
+
+                @extend %font-size-20;
+
+                line-height: 32px;
+            }
+
+            button {
+                @extend %padding-10-15;
+            }
+        }
+    }
+}
+
+// End div class Start
+
+// Start  footer
+footer {
+    @extend %background-color-v-100_c1;
+
+    hr {
+        background-color: #1A64A2;
+    }
+
+    .top {
+        padding: 40px 0 100px;
+
+        .container {
+            .content {
+                @include flex-JC-AI-bc;
+
+                .info {
+                    @extend %center;
+
+                    > * {
+                        @extend %margin-10-0;
+                    }
+
+                    h2 {
+                        @extend %color-v-100_c4;
+                    }
+
+                    a {
+                        @extend %color-v-100_c7;
+
+                        text-decoration: none;
+                    }
+
+                    span {
+                        @extend %color-v-100_c7;
+                    }
+                }
+
+                .quote {
+                    div {
+                        @extend %padding-15;
+
+                        @extend %color-v-100_c7;
+
+                        @extend %background-color-v-100_c4;
+
+                        @extend %center;
+
+                        @extend %border-radius-2;
+
+                        @extend %margin-10-0;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom {
+        @extend %padding-20;
+
+        .container {
+            .content {
+                @include flex-JC-AI-bc;
+
+                .cp {
+                    @extend %color-v-100_c7;
+
+                    @include flex-JC-AI-center;
+                }
+
+                .sh {
+                    @include flex-JC-AI-bc;
+
+                    div {
+                        @include flex-JC-AI-center;
+
+                        @extend %padding-8;
+
+                        @extend %transition-property-background-color;
+
+                        @extend %transition-duration-4;
+
+                        @extend %transition-timing-function-ease-out;
+
+                        @extend %border-style-solid;
+
+                        @extend %border-width-1;
+
+                        border-color: #1A64A2;
+
+                        @extend %pointer;
+
+                        @extend %margin-10;
+
+                        border-radius: 50%;
+
+                        img {
+                            @include width(32);
+                            @include height(32);
+                        }
+
+                        &:hover {
+                            background-color: #20d29d48;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Start  footer

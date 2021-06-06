@@ -1,18 +1,74 @@
-footer {
-    @include md-575 {}
+div.login-form {
+    @include md-575 {
+        .container {
+            .content {
+                .form {
+                    width: 300px !important;
+                    justify-content: center;
+
+                    > div {
+                        width: 100% !important;
+                        flex-grow: 0 !important;
+                    }
+
+                    input, textarea,button {
+                        width: 100% !important;
+                    }
+                    
+                }
+            }
+        }
+    }
 }
-footer {
-    @include md-576-767 {}
+
+div.login-form {
+    @include md-576-767 {
+        .container {
+            .content {
+                .form {
+                    width: 540px !important;
+                    justify-content: center;
+
+                    > div {
+                        width: 80% !important;
+                        flex-grow: 0 !important;
+                    }
+
+                    input, textarea {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+    }
 }
-footer {
+
+div.login-form {
     @include md-768-991 {
+        .container {
+            .content {
+                .form {
+                    width: 700px !important;
+                    justify-content: center;
+
+                    > div {
+                        width: 70% !important;
+                        flex-grow: 0 !important;
+                    }
+
+                    input, textarea {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
     }
 }
-footer {
-    @include md-992-1199 {
-    }
+
+div.login-form {
+    @include md-992-1199 {}
 }
-footer {
-    @include md-1400 {
-    }
+
+div.login-form {
+    @include md-1400 {}
 }
